@@ -12,6 +12,8 @@ Parts of the 3D case:
 A 3D robot with some parts can be seen in Bluetooth_robot_with_all_parts.stl.
 To write and upload code to the Arduino boards is used Arduino IDE program (variant of the C++ programming language).
 
+Robot moves forward, backward, right and left. It has lights and buzzes at distance less than 30 cm.
+
 ### List of hardware components:
 * [Arduino UNO (board)](https://techfun.sk/produkt/arduino-uno-smd-edicia-precizny-klon/)
 * [Motor driver shield](https://techfun.sk/produkt/motor-driver-shield-l293d/)
