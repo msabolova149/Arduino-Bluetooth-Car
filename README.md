@@ -64,3 +64,85 @@ Code
 *Note: Before uploading the sketch on the Uno board, it is neccesary to remove two jumper wires that is connected to the TX and RX pin of Arduino. Otherwise Arduino IDE gives us a programming error. After successfully uploading the sketch, connect the two wires (TX and RX) on their places.*
 
 <p align="center"> <img src="image_robot2.png" /> </p>
+
+
+### Program for movements:
+
+``` c++
+#include <AFMotor.h>
+
+AF_DCMotor motor1(1); 
+AF_DCMotor motor2(4);
+char command; 
+
+void setup() {       
+  Serial.begin(9600);  
+}
+
+void loop(){
+    if(Serial.available() > 0){ 
+          command = Serial.read(); 
+          Stop();
+      
+          switch(command){
+          case 'F':  
+            forward();
+            break;
+          
+          case 'B':  
+            back();
+            break;
+          
+          case 'L':  
+            left();
+            break;
+          
+          case 'R':
+            right();
+            break;
+          }
+    }
+} 
+
+void forward(){
+  motor1.setSpeed(255); 
+  motor1.run(FORWARD); 
+  
+  motor2.setSpeed(255);
+  motor2.run(FORWARD);
+}
+
+void back(){ 
+  motor1.setSpeed(255); 
+  motor1.run(BACKWARD); 
+  
+  motor2.setSpeed(255); 
+  motor2.run(BACKWARD); 
+}
+
+void left(){
+  motor1.setSpeed(255); 
+  motor1.run(BACKWARD); 
+  
+  motor2.setSpeed(255); 
+  motor2.run(FORWARD);  
+
+}
+
+void right(){
+  motor1.setSpeed(255); 
+  motor1.run(FORWARD); 
+  
+  motor2.setSpeed(255); 
+  motor2.run(BACKWARD); 
+
+} 
+
+void Stop(){
+  motor1.setSpeed(0); 
+  motor1.run(RELEASE); 
+  
+  motor2.setSpeed(0); 
+  motor2.run(RELEASE); 
+}
+```
