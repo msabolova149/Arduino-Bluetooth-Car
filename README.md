@@ -4,10 +4,12 @@ In this school project I made a bluetooth controlled robot using Arduino.
 Usually, remote-controlled robots are controlled by RC remotes, but I chose an android phone.
 For this project, I also created a case with a 3D printer and designed it in OpenScad program.
 
+### Case
+
 Parts of the 3D case:
-* head.stl
-* upper_part.stl
-* lower_part.stl
+* [head](head.stl)
+* [upper part](upper_part.stl)
+* [lower part](lower_part.stl)
 
 A 3D robot with some parts can be seen in Bluetooth_robot_with_all_parts.stl.
 To write and upload code to the Arduino boards is used Arduino IDE program (variant of the C++ programming language).
