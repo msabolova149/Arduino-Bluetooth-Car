@@ -148,3 +148,5 @@ void Stop(){
   motor2.run(RELEASE); 
 }
 ```
+
+See in 3D : [show](Bluetooth_robot_with_all_parts.stl)
