@@ -1,4 +1,4 @@
-# Arduino Bluetooth Car 
+# Arduino Bluetooth Robot
 
 In this school project I made a bluetooth controlled robot using Arduino. 
 Usually, remote-controlled robots are controlled by RC remotes, but I chose an android phone.
