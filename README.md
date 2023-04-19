@@ -56,7 +56,7 @@ Programming the Arduino Uno board with Arduino IDE.
 
 ### Step 7
 Downloading the Android App from Google Play Store.
-* [Bluetooth RC Car (suggestion)](https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller)
+* [Bluetooth RC Car](https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller) (suggestion)
 
 ### Step 8
 Code
