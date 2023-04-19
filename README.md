@@ -63,7 +63,7 @@ Code
 
 *Note: Before uploading the sketch on the Uno board, it is neccesary to remove two jumper wires that is connected to the TX and RX pin of Arduino. Otherwise Arduino IDE gives us a programming error. After successfully uploading the sketch, connect the two wires (TX and RX) on their places.*
 
-<p align="center"> <img src="image_robot2.png" /> </p>
+<p align="center"> <img src="image_robot.png" /> </p>
 
 
 ### Program for movements:
