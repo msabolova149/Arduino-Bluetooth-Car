@@ -49,7 +49,7 @@ Mounting the HC-06 module.
 Ultrasonic sensor belongs to the head part of case, the other components to the lower part.*
 
 ### Step 5
-Connection of all components according to the wiring diagram. (wiring_diagram.png)
+Connection of all components according to the wiring diagram. [diagram](wiring_diagram.png)
 
 ### Step 6
 Programming the Arduino Uno board with Arduino IDE.
