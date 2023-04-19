@@ -26,7 +26,7 @@ Robot moves forward, backward, right and left. It has lights and buzzes at dista
 * Double sided tape or glue, screws, screwdriver
 
 #### Optional:
-* [2 - LED RGB modules](https://techfun.sk/produkt/led-rgb-modul/) OR 2 - RGB led + 6 - rezistor (3 for 1 led)
+* [2 - LED RGB modules](https://techfun.sk/produkt/led-rgb-modul/) OR 2 - RGB leds + 6 - resistors (3 for 1 led)
 * [PCB](https://techfun.sk/produkt/nepajive-pole-170-bodov/)
 * [Ultrasonic sensor](https://techfun.sk/produkt/ultrazvukovy-senzor-vzdialenosti-hy-srf05/)
 * [Buzzer](https://techfun.sk/produkt/pasivny-buzzer-samostatne/)
