@@ -4,6 +4,8 @@ In this school project I made a bluetooth controlled robot using Arduino.
 Usually, remote-controlled robots are controlled by RC remotes, but I chose an android phone.
 For this project, I also created a case with a 3D printer and designed it in OpenScad program.
 
+See in 3D : [show](Bluetooth_robot_with_all_parts.stl)
+
 ### Case
 
 Parts of the 3D case:
@@ -149,4 +151,4 @@ void Stop(){
 }
 ```
 
-See in 3D : [show](Bluetooth_robot_with_all_parts.stl)
+
